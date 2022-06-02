@@ -15,13 +15,14 @@ nav {
 }
 
 .nav__left {
-  flex: 1;
+  flex-grow: 1;
 }
 
 .nav__middle {
   color: white;
-  flex: 1;
+  flex-grow: 1;
   text-align: center;
+  justify-content: center;
 }
 
 .input__wrapper {
